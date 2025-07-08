@@ -248,18 +248,22 @@ header {
     width: 100%;
     padding-right: 20%;
     height: auto;
+    max-width: 100%;
+    justify-self: center;
 }
 .grid-container img {
     width: 100%;
 }
 .cardb {
-    width: 75%;
+    width: 80%;
 }
 } 
 .moreb {
     background-color: #d0edfab7;
     padding-bottom: 40px;
     padding-top: 20px;
+    justify-content: center;
+    align-self: center;
 }
 .moreb button:hover {
     background-color: rgb(226, 176, 10);
@@ -278,6 +282,12 @@ header {
     flex-direction: column;
     margin-left: 50px;
     justify-self: center;
+}
+.top {
+    align-self: self-end;
+}
+footer {
+    align-items: end;
 }   
 @keyframes slideFromTop {
 
