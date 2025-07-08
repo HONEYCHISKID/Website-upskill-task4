@@ -214,11 +214,17 @@ footer p {
     justify-self: end;
 }
 @media (max-width: 600px) {
+    * {
+        max-width: 100%;
+    }
     header {
         align-items: start;
     }
+    .logo {
+        max-width: 90px;
+    }
     .hero img {
-        padding: 0px 60px;
+        padding: 0px 5px;
     }
 
     .nav-items {
@@ -237,6 +243,8 @@ footer p {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        padding-right: 20%;
+        height: auto;
     }
     .grid-container img {
         width: 100%;
